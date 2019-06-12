@@ -1,0 +1,229 @@
+body {
+  background-color: rgb(34, 42, 53);
+}
+
+#intro {
+  padding: 2% 3% 5% 4%;
+  color: rgb(238, 232, 205);
+  font-family: 'Noto Serif', sans-serif;
+  background-color: rgb(34, 42, 53);
+}
+
+.intro-header {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(238, 232, 205);
+  font-size: 4.3rem;
+  margin-bottom: 0;
+}
+
+#intro .navbar-brand {
+  color: rgb(238, 232, 205);
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 0;
+}
+
+.navbar-brand:hover {
+  color: rgb(192, 183, 161);
+}
+
+.nav-link, .dropdown-toggle, .dropdown-item {
+  color: rgb(238, 232, 205);
+  text-decoration: underline;
+  font-size: 12px;
+  text-align: right;
+}
+
+.navbar-nav {
+  text-align: right
+}
+
+div.dropdown-menu.show {
+  background-color: rgb(34, 42, 53);
+  color: rgb(238, 232, 205);
+  text-align: right;
+  margin-right: 2px;
+  border: 1px solid;
+  min-width: 8rem
+}
+
+a.dropdown-item {
+  background-color: rgb(34, 42, 53);
+  color: rgb(238, 232, 205);
+  padding-left: 0;
+  max-width: 8rem;
+}
+
+a.dropdown-item:hover {
+  background-color: rgb(34, 42, 53);
+  color: rgb(192, 183, 161);
+}
+
+.nav-link:hover {
+  color: rgb(192, 183, 161);
+  text-decoration: none;
+}
+
+.intro-head-des {
+  font-size: 24px;
+}
+
+.intro-des {
+  font-size: 1rem;
+}
+
+.intro-text {
+  margin-top: 140px;
+}
+
+/* Programming and Design Section */
+#pro-and-design {
+  padding: 7% 4% 10% 4%;
+  background-color: rgb(192, 183, 161);
+  font-family: 'Noto Serif', sans-serif;
+  color: rgb(240, 240, 229);
+  text-align: center;
+  position: relative;
+}
+
+.pro-and-design-text, .large-and {
+  display: inline-block;
+  /* text-align: center; */
+  margin: auto auto;
+}
+
+.large-and {
+  font-size: 18rem;
+  position: relative;
+  top: 40px;
+}
+
+.pro-and-design-text h2 {
+  color: rgb(34, 42, 53);
+  font-size: 2.1rem;
+  margin-bottom: 1px;
+}
+
+.pro-and-design-text h4 {
+  font-size: 1.2rem;
+  margin: 0
+}
+
+.pro-and-design-text p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+  .intro-des {
+    font-size: 0.7rem;
+  }
+
+  .pro-text {
+    text-align: left;
+  }
+
+  .design-text {
+    text-align: right;
+  }
+
+  .large-and {
+    top: 0;
+    margin: 2px;
+  }
+}
+
+/* Previous Works Section  */
+#works {
+    padding: 15% 5% 7% 5%;
+    background-color: rgb(34, 42, 53);
+    text-align: center;
+}
+.slide {
+  min-height: 300px;
+  background-color: rgb(238, 232, 205);
+  margin: 10px 10%;
+}
+
+
+#journal {
+  padding: 10% 5%;
+  color: rgb(238, 232, 205);
+  font-family: 'Noto Serif', sans-serif;
+  background-color: rgb(34, 42, 53);
+  min-height: 500px;
+  position: relative;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  background-color: rgb(34, 42, 53);
+  grid-gap: 10px;
+  grid-template-columns: [col1-start] 29% [col2-start] 15% [col3-start] 30% [col4-start] 23% [col4-end];
+  grid-template-rows: [row1-start] 45% [row2-start] 25% [row3-start] 25% [row3-end];
+  color: #444;
+  min-height: inherit;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.box:hover {
+    transform: scale(1.02);
+}
+
+.a {
+  grid-column: col1-start / col2-start;
+  grid-row: row1-start / row3-start;
+  background-color: rgb(238, 232, 205);
+}
+
+.b {
+  grid-column: col1-start /col2-start
+  grid-row: row3-start / row3-end;
+  background-color: rgb(34, 42, 53);
+  color: rgb(238, 232, 205);
+}
+
+.c {
+  grid-column: col2-start / col4-start;
+  grid-row: row1-start /row2-start;
+}
+
+.d {
+  grid-column: col2-start / col3-start;
+  grid-row: row2-start / row3-end;
+}
+
+.e {
+  grid-column: col3-start / col4-start;
+  grid-row: row2-start /row3-end;
+  background-color: rgb(238, 232, 205);
+}
+
+.f {
+  grid-column: col4-start / col4-end;
+  grid-row: row1-start /row3-end;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 4% 10% 4%;
+  background-color: rgb(192, 183, 161);
+  font-family: "Montserrat";
+  color: rgb(34, 42, 53);
+
+}
+
+.social-icon {
+  margin: 4px 8px
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
