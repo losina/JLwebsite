@@ -1,3 +1,4 @@
+
 body {
   background-color: rgb(34, 42, 53);
 }
@@ -34,6 +35,9 @@ body {
   text-align: right;
 }
 
+.navbar {
+  padding: 0
+}
 .navbar-nav {
   text-align: right
 }
@@ -76,41 +80,78 @@ a.dropdown-item:hover {
   margin-top: 140px;
 }
 
-/* Programming and Design Section */
-#pro-and-design {
-  padding: 7% 4% 10% 4%;
+
+.work_section {
   background-color: rgb(192, 183, 161);
-  font-family: 'Noto Serif', sans-serif;
-  color: rgb(240, 240, 229);
-  text-align: center;
-  position: relative;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
-.pro-and-design-text, .large-and {
+.work_header{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5%
+}
+
+.container {
+    text-align: center;
+    padding: 0 5% 5% 5%;
+    
+}
+
+#pro-and-design {
+  background-color: rgb(192, 183, 161);
+  color: rgb(240, 240, 229); 
+  /* vertical-align: text-top; */
+  position: relative;
+  right: 45px;
+
+}
+
+.expand {
+  margin-top: 10px;
+}
+
+.pro-and-design-text {
   display: inline-block;
-  /* text-align: center; */
-  margin: auto auto;
+  margin: 0 auto;
+  vertical-align:top;
+
 }
 
-.large-and {
-  font-size: 18rem;
-  position: relative;
-  top: 40px;
+.pro-text, .design-text {
+  width: fit-content;
+  text-align: center;
 }
+.large-and {
+  padding: 0 4%;
+  font-size: 8rem;
+  position: relative;
+  bottom: 45px;
+  color: rgb(34, 42, 53);
+
+}
+/* .large-and {
+  font-size: 10rem;
+} */
 
 .pro-and-design-text h2 {
   color: rgb(34, 42, 53);
-  font-size: 2.1rem;
+  font-size: 2.8rem;
   margin-bottom: 1px;
+  
 }
 
 .pro-and-design-text h4 {
   font-size: 1.2rem;
-  margin: 0
+  font-family: 'Noto Serif', sans-serif;
+  margin: 0;
 }
 
 .pro-and-design-text p {
   font-size: 0.9rem;
+  font-family: 'Noto Serif', sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -132,88 +173,41 @@ a.dropdown-item:hover {
   }
 }
 
-/* Previous Works Section  */
-#works {
-    padding: 15% 5% 7% 5%;
-    background-color: rgb(34, 42, 53);
-    text-align: center;
+
+.pro-and-design-sub {
+  text-align: left
 }
-.slide {
-  min-height: 300px;
-  background-color: rgb(238, 232, 205);
-  margin: 10px 10%;
+.work_samples {
+  padding: 0 15%;
+  overflow: hidden;
+}
+
+.fa-chevron-down {
+  color:rgb(240, 240, 229);
 }
 
 
-#journal {
-  padding: 10% 5%;
+.card {
+  background-color: rgb(240, 240, 229);
+  color: rgb(34, 42, 53);
+}
+#card_sample {
+
   color: rgb(238, 232, 205);
   font-family: 'Noto Serif', sans-serif;
   background-color: rgb(34, 42, 53);
-  min-height: 500px;
+  padding-bottom: 5%;
   position: relative;
-  text-align: center;
+
 }
 
-.wrapper {
-  display: grid;
-  background-color: rgb(34, 42, 53);
-  grid-gap: 10px;
-  grid-template-columns: [col1-start] 29% [col2-start] 15% [col3-start] 30% [col4-start] 23% [col4-end];
-  grid-template-rows: [row1-start] 45% [row2-start] 25% [row3-start] 25% [row3-end];
-  color: #444;
-  min-height: inherit;
-}
 
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}
 
-.box:hover {
-    transform: scale(1.02);
-}
 
-.a {
-  grid-column: col1-start / col2-start;
-  grid-row: row1-start / row3-start;
-  background-color: rgb(238, 232, 205);
-}
-
-.b {
-  grid-column: col1-start /col2-start
-  grid-row: row3-start / row3-end;
-  background-color: rgb(34, 42, 53);
-  color: rgb(238, 232, 205);
-}
-
-.c {
-  grid-column: col2-start / col4-start;
-  grid-row: row1-start /row2-start;
-}
-
-.d {
-  grid-column: col2-start / col3-start;
-  grid-row: row2-start / row3-end;
-}
-
-.e {
-  grid-column: col3-start / col4-start;
-  grid-row: row2-start /row3-end;
-  background-color: rgb(238, 232, 205);
-}
-
-.f {
-  grid-column: col4-start / col4-end;
-  grid-row: row1-start /row3-end;
-}
 
 #footer {
   text-align: center;
-  padding: 7% 4% 10% 4%;
+  padding: 7% 4% 5% 4%;
   background-color: rgb(192, 183, 161);
   font-family: "Montserrat";
   color: rgb(34, 42, 53);
@@ -226,4 +220,53 @@ a.dropdown-item:hover {
 
 .social-icon:hover {
   transform: scale(1.2);
+}
+
+
+
+.sub_title {
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 3.5rem;
+  padding-top: 7%
+}
+
+.ivory {
+  background-color: rgb(192, 183, 161);
+}
+
+.timeline {
+  position: relative;
+  font-family: "Montserrat";
+  max-width: 1200px;
+  margin: 0 10%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: rgb(238, 232, 205);
+  top: 0;
+  bottom: 0;
+  left: 2%;
+  margin-left: -3px;
+}
+
+.time_container {
+  padding: 10px 50px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.time_container::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  right: 530px;
+  border: 2px solid rgb(34, 42, 53);
+  top: 15px;
+  z-index: 1;
 }
