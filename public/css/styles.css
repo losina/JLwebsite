@@ -4,6 +4,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  background-color: #222a35;
 }
 
 #intro {
@@ -28,13 +29,15 @@ html {
   top: 0;
 }
 
+
+
+
 .navbar-brand:hover {
   color: #cfcfcf;
 }
 
 .nav-link, .dropdown-toggle, .dropdown-item {
   color: #cfcfcf;
-  text-decoration: underline;
   font-size: 13px;
   text-align: right;
 }
@@ -86,10 +89,28 @@ a.dropdown-item:hover {
 }
 
 
+@media (max-width:358px) {
+  .intro-header {
+    font-size: 3.3rem;
+    min-width: 220px;
+  }
+
+  #intro h2 {
+    font-size: 1.2rem;
+    min-width: 220px;
+  }
+
+  .main-intro-des {
+    font-size: 0.8rem;
+    min-width: 220px;
+  }
+}
+
 .work_section {
   background-color: #cfcfcf;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
+  min-height: 320px;
 }
 
 .work-header {
@@ -100,7 +121,8 @@ a.dropdown-item:hover {
 
 .work_section .container {
   text-align: center;
-  padding-bottom: 5%
+  padding-bottom: 5%;
+
 }
 
 #pro-and-design {
@@ -125,6 +147,7 @@ a.dropdown-item:hover {
   margin: 0 auto;
   vertical-align: top;
   text-align: center;
+
 }
 
 .pro-text, .design-text {
@@ -180,7 +203,6 @@ a.dropdown-item:hover {
   .intro-des {
     font-size: 0.7rem;
   }
-
   
   .pro-and-design-text {
     text-align: center;
@@ -205,6 +227,24 @@ a.dropdown-item:hover {
 
 
 @media (max-width: 480px) {
+  .stroke {
+    max-width: 70%
+  }
+  .pro-and-design-text {
+    text-align: center;
+    display: block;
+  }
+
+  .pro-and-design-text {
+    text-align: center;
+    display: block;
+  }
+
+  .pro-text {
+    text-align: center;
+    width: 100%;
+
+  }
   .pro-and-design-text h2 {
     font-size: 2rem;
   }
@@ -217,6 +257,12 @@ a.dropdown-item:hover {
   .large-and {
     height: 100px;
     font-size: 6rem;
+  }
+
+  .work_section .container {
+    text-align: center;
+    padding-bottom: 10%;
+    height: fit-content
   }
 }
 
@@ -270,6 +316,14 @@ a.dropdown-item:hover {
 @media (max-width: 1000px) {
   .card {
     min-height: 240px;
+  }
+
+}
+
+@media (max-width: 765px) {
+  .card {
+    margin-right: 20px;
+    margin-left: 20px
   }
 
 }
@@ -562,7 +616,7 @@ a.dropdown-item:hover {
 .work-right h3 {
   font-family: 'Montserrat';
   font-size:1.3rem;
-  margin: 0;
+  margin: 0 0 3% 0;
 
 }
 
@@ -611,6 +665,77 @@ a.dropdown-item:hover {
   color:rgb(255, 204, 0)
 }
 
+.left-item:hover {
+  transform: scale(1.03)
+}
+
+/*work experience mobile responsive*/
+@media (max-width: 570px) {
+  .timeline {
+    display: none
+  }
+
+  .work-content {
+    display: block
+  }
+  .work-left {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    width: 100%
+  }
+  .left-item {
+    max-height: 25px;
+    min-width: 100px;
+    padding: 0;
+    margin: 0 4px 0 0;
+    display:table;
+    text-align: center
+  }
+  .left-item-text {
+    display: table-cell;
+    vertical-align: middle;
+    
+  }
+
+  .work-right {
+    margin:0;
+    padding-bottom: 20px;
+    width: 100%
+  }
+
+  .work-content .tags {
+    justify-content: start;
+  }
+  .work-right h2 {
+    margin-top: 10px;
+  }
+
+  .tags h5 {
+    margin: 4px 4px 4px 0px; 
+  }
+
+}
+
+@media (max-width: 350px) {
+  .left-item-text {
+    font-size: 0.7rem;
+  }
+  .left-item {
+    min-width: 80px;
+  }
+  .tags h5 {
+    font-size: 0.7rem;
+  }
+
+  .work-right li {
+    font-size: 0.8rem;
+  }
+
+
+}
+
+
 
 
 /* Section navigator main page */
@@ -644,7 +769,6 @@ a.dropdown-item:hover {
 /* Time line test */
 .timeline {
   margin-right: 5px;
-
   border-right: solid;
   border-right-color: #222a35;
   font-family: 'Montserrat', sans-serif;
@@ -777,3 +901,22 @@ a.dropdown-item:hover {
 
 }
 
+.contact-content {
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #cfcfcf;
+  padding: 5%;
+  margin: 5% 0;
+}
+
+.contact-content p {
+  margin-top: 20px;
+}
+.contact-content .links{
+  margin: 2%;
+}
+
+.contact-content a{
+  margin: 1%;
+}

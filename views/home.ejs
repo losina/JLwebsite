@@ -47,7 +47,7 @@
                   </div>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="#footer">Contact</a>
+                  <a class="nav-link" href="/contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -230,7 +230,8 @@
 
       })
 
-      $('.pro-text').hover(function() {
+      if ($(window).width() > 470) {
+        $('.pro-text').hover(function() {
         $(".pro-stroke").css("visibility","visible")
       }, function() {
         $(".pro-stroke").css("visibility","hidden")
@@ -240,6 +241,10 @@
       }, function() {
         $(".design-stroke").css("visibility","hidden")
       })
+    }
+
+
+
 
       $('a').hover(function() {
         $(this).css({"text-decoration" : "underline", "text-decoration-color": "rgb(255, 204, 0)"})

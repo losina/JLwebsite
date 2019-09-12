@@ -21,7 +21,9 @@ app.get('/design', function(req, res) {
 app.get('/programming', function(req, res) {
     res.render("programming")
 })
-
+app.get('/contact', function(req, res) {
+    res.render("contact")
+})
 
 app.get('/photography', function(req, res) {
     res.render("photography")
