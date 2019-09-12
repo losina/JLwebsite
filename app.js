@@ -23,6 +23,11 @@ app.get('/programming', function(req, res) {
 })
 
 
+app.get('/photography', function(req, res) {
+    res.render("photography")
+})
+
+
 app.listen(3000, function() {
     console.log("Server started on port 3000");
   });
