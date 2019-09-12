@@ -19,8 +19,7 @@ app.get('/design', function(req, res) {
 })
 
 app.get('/programming', function(req, res) {
-    r
-    es.render("programming")
+    res.render("programming")
 })
 
 
