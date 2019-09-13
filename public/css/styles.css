@@ -90,7 +90,7 @@ a.dropdown-item:hover {
 
 
 
-@media (max-width:358px) {
+@media screen and (max-width:358px) {
   .intro-header {
 
     font-size: 3.3rem;
@@ -201,7 +201,7 @@ a.dropdown-item:hover {
   left:5px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .intro-des {
     font-size: 0.7rem;
   }
@@ -228,7 +228,7 @@ a.dropdown-item:hover {
 
 
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .intro-header {
     margin-top: 300px;
   }
@@ -318,14 +318,14 @@ a.dropdown-item:hover {
   background-color: #cfcfcf;
   text-align: center
 }
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .card {
     min-height: 240px;
   }
 
 }
 
-@media (max-width: 765px) {
+@media screen and (max-width: 765px) {
   .card {
     margin-right: 20px;
     margin-left: 20px
@@ -434,7 +434,7 @@ a.dropdown-item:hover {
   margin: 0;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .grid-row1, .grid-row2, .grid-row3 {
     display: block;
   }
@@ -525,7 +525,7 @@ a.dropdown-item:hover {
   width: 100%
 }
 
-@media (max-width:430px) {
+@media screen and (max-width:430px) {
   .design-description {
     padding-top: 7%;
     margin-bottom: 20px;
@@ -679,7 +679,7 @@ a.dropdown-item:hover {
 }
 
 /*work experience mobile responsive*/
-@media (max-width: 570px) {
+@media screen and (max-width: 570px) {
   .timeline {
     display: none
   }
@@ -726,7 +726,7 @@ a.dropdown-item:hover {
 
 }
 
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
   .left-item-text {
     font-size: 0.7rem;
   }
@@ -862,7 +862,7 @@ a.dropdown-item:hover {
 
 }
 
-@media (min-width:525px) {
+@media screen and (min-width:525px) {
   .pro-grid {
     padding-top: 3%;
     grid-template-columns: 1fr 1fr;
@@ -880,7 +880,7 @@ a.dropdown-item:hover {
 }
 
 
-@media (min-width: 525px) {
+@media screen and (min-width: 525px) {
   .pro-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -891,7 +891,7 @@ a.dropdown-item:hover {
 
 }
 
-@media (min-width: 980px) {
+@media screen and (min-width: 980px) {
   .pro-grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
