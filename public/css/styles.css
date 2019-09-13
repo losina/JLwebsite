@@ -679,7 +679,7 @@ a.dropdown-item:hover {
 }
 
 /*work experience mobile responsive*/
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 700px) {
   .timeline {
     display: none
   }
@@ -730,9 +730,7 @@ a.dropdown-item:hover {
   .left-item-text {
     font-size: 0.7rem;
   }
-  .left-item {
-    min-width: 80px;
-  }
+
   .tags h5 {
     font-size: 0.7rem;
   }
