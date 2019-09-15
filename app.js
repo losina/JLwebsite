@@ -30,6 +30,6 @@ app.get('/photography', function(req, res) {
 })
 
 
-app.listen(80, function() {
+app.listen(3000, function() {
     console.log("Server started on port 80");
   });
