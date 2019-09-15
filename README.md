@@ -1,7 +1,7 @@
 # JLwebsite
 
 ### First version of my personal website is now live at www.jinalo.com!  
-Written in JavaScript (Node, Express and jQuery), HTML and CSS and hosted via AWS EC2.  
+Written in **JavaScript (Node, Express and jQuery), HTML and CSS** and hosted via **AWS EC2** (https://aws.amazon.com/ec2/).  
 More functionalities to be added... 
 
 ### Useful Resources 
